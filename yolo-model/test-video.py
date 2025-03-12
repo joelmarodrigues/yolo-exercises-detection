@@ -8,7 +8,7 @@ import cv2
 model = YOLO("runs/pose/train/weights/best.pt")
 
 # Load the video
-video_path = "images/diagonal-squat.mp4"
+video_path = "images/squat.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Original video properties
@@ -17,7 +17,7 @@ width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 # Object to write the processed video
-output_path = "images/result.mp4"
+output_path = "images/result-squat.mp4"
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")  # codec to use
 out = cv2.VideoWriter(output_path, fourcc, fps, (width, height))
 

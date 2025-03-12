@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/yolo-exercise-detection.iml" filepath="$PROJECT_DIR$/.idea/yolo-exercise-detection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/yolo-exercises-detection.iml" filepath="$PROJECT_DIR$/.idea/yolo-exercises-detection.iml" />
     </modules>
   </component>
 </project>
